@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pacman - test0001</title>
+    <link rel="shortcut icon" href="./assets/pacman doc shortcut icon.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="flexgo">
+      <h2>Z Avant S Arrière Q Gauche D Droite</h2>
+      <button id="buttonL" disabled>Reset</button>
+    </section>
+
+    <section class="flexplace">
+      <div class="place">
+        <span id="place11" class="wall"></span>
+        <span id="place12" class="wall"></span>
+        <span id="place13" class="wall"></span>
+        <span id="place14" class="wall"></span>
+        <span id="place15" class="wall"></span>
+        <span id="place16" class="wall"></span>
+        <span id="place17" class="wall"></span>
+        <span id="place18" class="wall"></span>
+        <span id="place19" class="wall"></span>
+        <span id="place110" class="wall"></span>
+        <span id="place111" class="wall"></span>
+        <span id="place112" class="wall"></span>
+        <span id="place113" class="wall"></span>
+        <span id="place114" class="wall"></span>
+        <span id="place115" class="wall"></span>
+        <span id="place116" class="wall"></span>
+        <span id="place21" class="wall"></span>
+        <span id="place22" class="candy">
+          <img src="./assets/phantom1.gif" alt="Phantom" id="phantom1"
+        /></span>
+        <span id="place23" class="candy"></span>
+        <span id="place24" class="candy"></span>
+        <span id="place25" class="wall"></span>
+        <span id="place26" class="candy"></span>
+        <span id="place27" class="candy"></span>
+        <span id="place28" class="candy"></span>
+        <span id="place29" class="candy"></span>
+        <span id="place210" class="candy"></span>
+        <span id="place211" class="candy"></span>
+        <span id="place212" class="wall"></span>
+        <span id="place213" class="candy"></span>
+        <span id="place214" class="candy"></span>
+        <span id="place215" class="candy"></span>
+        <span id="place216" class="wall"></span>
+        <span id="place31" class="wall"></span>
+        <span id="place32" class="candy"></span>
+        <span id="place33" class="wall"></span>
+        <span id="place34" class="candy"></span>
+        <span id="place35" class="wall"></span>
+        <span id="place36" class="candy"></span>
+        <span id="place37" class="wall"></span>
+        <span id="place38" class="wall"></span>
+        <span id="place39" class="wall"></span>
+        <span id="place310" class="wall"></span>
+        <span id="place311" class="candy"></span>
+        <span id="place312" class="wall"></span>
+        <span id="place313" class="candy"></span>
+        <span id="place314" class="wall"></span>
+        <span id="place315" class="candy"></span>
+        <span id="place316" class="wall"></span>
+        <span id="place41" class="wall"></span>
+        <span id="place42" class="candy"></span>
+        <span id="place43" class="wall"></span>
+        <span id="place44" class="candy"></span>
+        <span id="place45" class="candy"></span>
+        <span id="place46" class="candy"></span>
+        <span id="place47" class="wall"></span>
+        <span id="place48" class="candy"></span>
+        <span id="place49" class="candy"></span>
+        <span id="place410" class="candy"></span>
+        <span id="place411" class="candy"></span>
+        <span id="place412" class="candy"></span>
+        <span id="place413" class="candy"></span>
+        <span id="place414" class="wall"></span>
+        <span id="place415" class="candy"></span>
+        <span id="place416" class="wall"></span>
+        <span id="place51" class="wall"></span>
+        <span id="place52" class="candy"></span>
+        <span id="place53" class="candy"></span>
+        <span id="place54" class="candy"></span>
+        <span id="place55" class="wall"></span>
+        <span id="place56" class="candy"></span>
+        <span id="place57" class="wall"></span>
+        <span id="place58" class="candy"><img alt="Player" id="pacme" /></span>
+        <span id="place59" class="candy"></span>
+        <span id="place510" class="wall"></span>
+        <span id="place511" class="candy"></span>
+        <span id="place512" class="wall"></span>
+        <span id="place513" class="candy"></span>
+        <span id="place514" class="candy"></span>
+        <span id="place515" class="candy"></span>
+        <span id="place516" class="wall"></span>
+        <span id="place61" class="wall"></span>
+        <span id="place62" class="candy"></span>
+        <span id="place63" class="wall"></span>
+        <span id="place64" class="candy"></span>
+        <span id="place65" class="candy"></span>
+        <span id="place66" class="candy"></span>
+        <span id="place67" class="candy"></span>
+        <span id="place68" class="candy"></span>
+        <span id="place69" class="candy"></span>
+        <span id="place610" class="wall"></span>
+        <span id="place611" class="candy"></span>
+        <span id="place612" class="candy"></span>
+        <span id="place613" class="candy"></span>
+        <span id="place614" class="wall"></span>
+        <span id="place615" class="candy"></span>
+        <span id="place616" class="wall"></span>
+        <span id="place71" class="wall"></span>
+        <span id="place72" class="candy"></span>
+        <span id="place73" class="wall"></span>
+        <span id="place74" class="candy"></span>
+        <span id="place75" class="wall"></span>
+        <span id="place76" class="candy"></span>
+        <span id="place77" class="wall"></span>
+        <span id="place78" class="wall"></span>
+        <span id="place79" class="wall"></span>
+        <span id="place710" class="wall"></span>
+        <span id="place711" class="candy"></span>
+        <span id="place712" class="wall"></span>
+        <span id="place713" class="candy"></span>
+        <span id="place714" class="wall"></span>
+        <span id="place715" class="candy"></span>
+        <span id="place716" class="wall"></span>
+        <span id="place81" class="wall"></span>
+        <span id="place82" class="candy"></span>
+        <span id="place83" class="candy"></span>
+        <span id="place84" class="candy"></span>
+        <span id="place85" class="wall"></span>
+        <span id="place86" class="candy"></span>
+        <span id="place87" class="candy"></span>
+        <span id="place88" class="candy"></span>
+        <span id="place89" class="candy"></span>
+        <span id="place810" class="candy"></span>
+        <span id="place811" class="candy"></span>
+        <span id="place812" class="wall"></span>
+        <span id="place813" class="candy"></span>
+        <span id="place814" class="candy"></span>
+        <span id="place815" class="candy">
+          <img src="./assets/phantom2.gif" alt="Phantom" id="phantom2"
+        /></span>
+        <span id="place816" class="wall"></span>
+        <span id="place91" class="wall"></span>
+        <span id="place92" class="wall"></span>
+        <span id="place93" class="wall"></span>
+        <span id="place94" class="wall"></span>
+        <span id="place95" class="wall"></span>
+        <span id="place96" class="wall"></span>
+        <span id="place97" class="wall"></span>
+        <span id="place98" class="wall"></span>
+        <span id="place99" class="wall"></span>
+        <span id="place910" class="wall"></span>
+        <span id="place911" class="wall"></span>
+        <span id="place912" class="wall"></span>
+        <span id="place913" class="wall"></span>
+        <span id="place914" class="wall"></span>
+        <span id="place915" class="wall"></span>
+        <span id="place916" class="wall"></span>
+      </div>
+      <h3 id="score"></h3>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
